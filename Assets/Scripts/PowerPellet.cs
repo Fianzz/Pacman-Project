@@ -6,7 +6,7 @@ public class PowerPellet : Pellet
 
     protected override void Eat()
     {
-        
+        // rajis alfikar
         FindObjectOfType<GameManager>().PowerPelletEaten(this);
     }
 
