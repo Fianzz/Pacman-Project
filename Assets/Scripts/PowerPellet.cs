@@ -6,7 +6,7 @@ public class PowerPellet : Pellet
 
     protected override void Eat()
     {
-        // Ahmad Rajis Buwono,Mangku Limo Wanito,Tanpo Busono Sedoyo
+        
         FindObjectOfType<GameManager>().PowerPelletEaten(this);
     }
 
